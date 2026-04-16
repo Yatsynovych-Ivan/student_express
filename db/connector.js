@@ -163,7 +163,6 @@ createTableQueries.push(`
     );
 `);
  
-
 createTableQueries.push(`CREATE TABLE IF NOT EXISTS heroes_mlbb (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,              
