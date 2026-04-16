@@ -162,6 +162,7 @@ createTableQueries.push(`
         created_at TIMESTAMP DEFAULT NOW()
     );
 `);
+ 
 
 createTableQueries.push(`CREATE TABLE IF NOT EXISTS heroes_mlbb (
     id SERIAL PRIMARY KEY,
